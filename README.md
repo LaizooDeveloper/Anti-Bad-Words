@@ -3,7 +3,8 @@ ChatGuard is a Discord moderation bot designed to keep your server safe and frie
 
 ---
 
-# Features 
+## Features
+
 - Automatic bad word filtering – Deletes messages containing banned words.
 
 - User-friendly warnings – Sends a message to users when they use inappropriate language.
@@ -11,21 +12,24 @@ ChatGuard is a Discord moderation bot designed to keep your server safe and frie
 - Easy setup – Just add the bot to your server and customize the list of forbidden words.
 
 
-# Setup BOT
+## Run the app
 
 ```bash
-#1 Initialize the project
-- npm init -y
+# 1. Initialize the project
+npm init -y
 
-#2 Install Dependencies
+# 2. Install dependencies
+npm install
 npm i discord.js
 
-#3 Open index.js and Replace "YOUR_BOT_TOKEN" with your actual bot token
+# 3. Open index.js and replace "YOUR_BOT_TOKEN" with your actual bot token
+# Example:
+# client.login("MzIxNTY3...abcXYZ");
 
-#4 Start the bot
+# 4. Start the bot
 node index.js
 ```
 
-# Screenshot
-
-![Anit-Bad Words Screenshot] (assets/screenshot.png)
+---
+## Screenshot
+![Anit-Bad Words Screenshot](assets/screenshot.png)
